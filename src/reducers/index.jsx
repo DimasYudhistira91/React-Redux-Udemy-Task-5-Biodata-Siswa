@@ -12,7 +12,7 @@ const siswaReducer = () => {
 
 const selectedSiswaReducer = (selectedSiswa = null, action) => {
   if (action.type === 'SISWA_SELECTED') {
-    return action.nama;
+    return action.payload;
   }
   return selectedSiswa;
 };
