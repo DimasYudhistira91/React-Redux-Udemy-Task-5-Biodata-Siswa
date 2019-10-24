@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { selectSiswa } from '../actions';
 
 class App extends Component {
   render() {
